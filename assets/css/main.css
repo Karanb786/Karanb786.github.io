@@ -45,7 +45,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
-img, object{
+.img, object{
     max-height: 90%;
     max-width: 90%;
     
