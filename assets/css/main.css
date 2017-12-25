@@ -2,7 +2,13 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 
+/*
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
+/* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -120,13 +126,7 @@
 /* Type */
 
 
-.img, object{
-    max-height: 90%;
-    max-width: 90%;
-    
-        
-    
-}
+
 
 }
 
@@ -736,10 +736,12 @@
 		}
 
 			#main .avatar img {
-                background-image: url();
-        
-				display: block;
-				margin: 0 auto;
+                background-image: url(https://lh3.googleusercontent.com/Kip1Ap1LnmkdACdbD5rcKqxnPViYR8iUwU02YrlhLQISJ5c1fp5gM1N9R59S--U_EhDIlXzagp188CNElWtR3cm_kfdtqA6KvKS6JewaLWC7Ec_v0XYVMUTLimsmdaZ_nCcfEJPdp5KntZxxd0852xfbcG9dPV3OqvNAZPYnZxpqTOO5u6W3rKbUzmHgnmDqImo9YHER-erxngoJBmY9VX3VJUzvjUSlJFcuN7sFPN7nm4mrG6Gdt4Dr97mhvUGePYDZFWDxK1bZqmbX0ykVQyLgqdPC208GWKjp29wZk41tJhr4vsUo4G8w8Inz-oEYVrS9XhrNMb_oGeZKY-sZaNN0PnpByYQal-eI2aUnJWYMMuzZhEWT5Mb5xUqFlAR6UeAK84EViCUZWOBC0MbKmAhM8_kSKTaLXwzgnk4sMmeqjQaWRXHPVWzyTO5UfOu4nBA8x-9UufsVcoXt1-5ybxAWscuj6M6-UVnKT_llj3ryiaHnZzPmshWUhiyRHLUJ-upEhidor0K0KJOs6Y4YMiZxgur0Lv64bRDb_ikC_RmxzMSK4Qe1rdkAlt-2grBhZfpb4EophSNL0s3b8nlQTgF75V5fOl8ysrFr-X1a=w640-h852-no);
+                
+    max-height: 90%;
+    max-width: 90%;
+    display: block;
+                margin: 0 auto;
 				border-radius: 100%;
 				box-shadow: 0 0 0 1.5em #ffffff;
 			}
