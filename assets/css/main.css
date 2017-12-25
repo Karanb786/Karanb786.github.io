@@ -45,13 +45,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
-.img{
-    display: block;
-  max-width: 100%;
-  min-width: 100%;
-  height: auto;
-
-}
+img, object{
+    max-height: 90%;
+    max-width: 90%;
+    
 
 /* Box Model */
 
