@@ -125,6 +125,11 @@
 
 /* Type */
 
+
+
+
+}
+
 	body, input, select, textarea {
 		color: #414f57;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -724,32 +729,12 @@
 		transition: opacity 1s ease, transform 1s ease;
 	}
 
-		#main .avatar {
-			position: relative;
-			display: block;
-			margin-bottom: auto;
-		}
-
-			#main .avatar img {
-                background-image: url(https://lh3.googleusercontent.com/5oNXFwDpZOCpKKWQ_S4Yu_G3Vx3_h9GgCD8og0gr2a8SoM-5ZOcAXDI8IdVR76lZeCaiuCKoTblmLHwh1Jbg65muYxoaYJSJ1aCdS5o0f1mwgoQz0NgvneRVaY6zZSX57kd7UPGJUfE=s640-no);
-        
-				display: block;
-				margin: 0 auto;
-				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #ffffff;
-			}
-
-			#main .avatar:before {
-				content: '';
-				display: block;
-				position: absolute;
-				top: 50%;
-				left: -3em;
-				width: calc(100% + 6em);
-				height: 1px;
-				z-index: -1;
-				background: #c8cccf;
-			}
+.img , object{
+    min-height: 100%;
+    max-height: 100%;
+    
+}
+			
 
 		@media screen and (max-width: 480px) {
 
